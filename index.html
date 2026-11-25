@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive Web Development and Responsive Website Design project">
+  <title>WebNova | Responsive Web Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">Web<span>Nova</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">WEB DEVELOPMENT • RESPONSIVE DESIGN</p>
+          <h1>Build once.<br><span>Look great everywhere.</span></h1>
+          <p class="hero-copy">A modern, responsive website designed to adapt smoothly to mobile phones, tablets and desktops.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#services">Explore Services</a>
+            <a class="btn secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="browser-card">
+          <div class="browser-top"><i></i><i></i><i></i></div>
+          <div class="browser-content">
+            <div class="mock-nav"></div>
+            <div class="mock-title"></div>
+            <div class="mock-line"></div>
+            <div class="mock-line short"></div>
+            <div class="mock-cards"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">ABOUT THE PROJECT</p>
+          <h2>Responsive by design, not by accident.</h2>
+        </div>
+        <div>
+          <p>This project demonstrates core web development concepts including semantic HTML, modern CSS, responsive layouts, navigation, forms and JavaScript interactions.</p>
+          <p>The layout uses flexible grids, relative sizing and mobile breakpoints so the same website remains usable on different screen sizes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE BUILD</p>
+          <h2>Complete web solutions</h2>
+          <p>Clean interfaces with a focus on usability, performance and responsiveness.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">⌘</div>
+            <h3>Web Development</h3>
+            <p>Structured, semantic and maintainable front-end code for modern websites.</p>
+          </article>
+          <article class="card">
+            <div class="icon">▣</div>
+            <h3>Responsive Design</h3>
+            <p>Layouts that adapt naturally to phones, tablets and large desktop screens.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⚡</div>
+            <h3>Interactive UI</h3>
+            <p>Useful JavaScript interactions that make the experience feel fast and intuitive.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container feature-grid">
+        <div class="feature-panel">
+          <p class="eyebrow">RESPONSIVE FEATURES</p>
+          <h2>One website. Every screen.</h2>
+          <ul class="check-list">
+            <li>Mobile-first navigation</li>
+            <li>Flexible CSS Grid and Flexbox layouts</li>
+            <li>Accessible buttons and form labels</li>
+            <li>Responsive typography and spacing</li>
+            <li>Fast, lightweight static files</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>100%</strong><span>Responsive</span></div>
+          <div class="stat"><strong>3+</strong><span>Core technologies</span></div>
+          <div class="stat"><strong>1</strong><span>Clean project</span></div>
+          <div class="stat"><strong>∞</strong><span>Possibilities</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let's create something useful.</h2>
+          <p>Send a message using the form. This demo validates the form and shows a success message without needing a backend.</p>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 WebNova — Web Development & Responsive Website Design</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
